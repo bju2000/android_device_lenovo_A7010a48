@@ -1,0 +1,1 @@
+# android_device_lenovo_A7010a48
