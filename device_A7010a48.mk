@@ -5,7 +5,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product, vendor/lenovo/A7010a48/A7010a48-vendor.mk)
+$(call inherit-product, vendor/lenovo/A7010a48/A7010a48-vendor-blobs.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/lenovo/A7010a48/overlay
 
